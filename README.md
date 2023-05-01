@@ -52,11 +52,17 @@ Install the latest stable version of [Eigen Library](https://eigen.tuxfamily.org
 - The program will generate txt files of signal consisting of a mixture of three sinusoids, add white noise to the signal, apply SVD denoising, and save the denoised signal to a file. </br>
 - The original signal, corrupted signal and the denoised signal will also be saved to separate files for comparison. </br>
 - Launch [google colab](https://colab.research.google.com/). </br>
-- Copy the [python script](https://github.com/Dhruvbhat1729/ICE_Online-Challenge/blob/main/plot.py) and paste it to colab to plot the data obtained in .txt file. </br>
+- Copy the [python script](https://github.com/Dhruvbhat1729/ICE_Signal_Processing/blob/main/plot.py) and paste it to colab to plot the data obtained in .txt file. </br>
 - main.cpp: Contains the main program that generates the signal, adds noise, applies SVD denoising, and saves the denoised signal to a file. </br>
 - orignal_signals.txt: Contains the original signal without noise. </br>
 - orignal_signals_with_noise.txt: Contains the original signal with added white noise. </br>
 - denoised.txt: Contains the denoised signal after applying SVD denoising. </br>
+
+## Results
+This is the plot obtained for -20 dBm noise for the choosen frequency. The original signal and the noised signal seems to be overlapping, when looked closed it does not. 
+
+<p>
+  <img src = "https://github.com/Dhruvbhat1729/ICE_Signal_Processing/blob/main/signals.PNG" alt = "Plotted signals" width = "40%" /> </br>
 
 ## Dependencies
 Eigen C++ library
