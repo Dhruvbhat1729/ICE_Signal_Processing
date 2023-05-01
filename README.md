@@ -5,7 +5,7 @@ Singular Value Decomposition (SVD) of a matrix is a factorization of a matrix in
 
 ### Math behind SVD
 
-  <img src = "https://github.com/Dhruvbhat1729/ICE_Online-Challenge/blob/main/Singulardecomposition-660x187.png" width = "40%" /> </br>
+  <img src = "https://github.com/Dhruvbhat1729/ICE_Online-Challenge/blob/main/Singulardecomposition-660x187.png" alt = "Math Formula" width = "50%" /> </br>
   
 - U:  mxn matrix is the orthonormal eigenvectors of AA^{T}. </br>
 - VT: transpose of a nxn matrix containing the orthonormal eigenvectors of A^{T}A. </br>
